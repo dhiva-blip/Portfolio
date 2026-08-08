@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dhiva — Frontend Developer &amp; Landing Page Specialist</title>
+<meta name="description" content="Dhiva is a frontend web developer in Tamil Nadu, India, building fast, responsive, high-converting landing pages for startups, cafés, restaurants and small businesses.">
+<meta name="theme-color" content="#090c14">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Dhiva — Frontend Developer & Landing Page Specialist">
+<meta property="og:description" content="Fast, responsive, high-converting websites for startups and small businesses.">
+<meta property="og:type" content="website">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><defs><linearGradient id=%22g%22 x1=%220%22 y1=%220%22 x2=%221%22 y2=%221%22><stop offset=%220%22 stop-color=%22%234f8cff%22/><stop offset=%221%22 stop-color=%22%2322d3ee%22/></linearGradient></defs><rect width=%22100%22 height=%22100%22 rx=%2224%22 fill=%22%230d1120%22/><text x=%2250%22 y=%2266%22 font-size=%2255%22 font-family=%22monospace%22 fill=%22url(%23g)%22 text-anchor=%22middle%22>D</text></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============================= NAVBAR ============================= -->
+<header class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="#home" class="logo"><span class="dot"></span>dhiva<b>.dev</b></a>
+
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#why">Why Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-cta">
+      <a href="#contact" class="btn btn-ghost btn-sm">Let's Talk</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- ============================= HERO ============================= -->
+<section class="hero" id="home">
+  <div class="container hero-grid">
+
+    <div class="hero-copy">
+      <p class="eyebrow">FRONTEND DEVELOPER · TAMIL NADU, INDIA</p>
+      <h1>Hi, I'm Dhiva <span class="wave">👋</span><br>I build <span class="grad-text">landing pages</span> that turn visits into customers.</h1>
+      <p class="hero-role">&gt; <span id="roleType"></span><span class="cursor"></span></p>
+      <p class="lede">I design and develop fast, responsive, high-converting websites for startups, cafés, restaurants, clothing brands and small businesses — clean code, modern UI, zero bloat.</p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-ghost">Contact Me</a>
+      </div>
+
+      <div class="hero-stats">
+        <div><b>15+</b><span>Landing pages shipped</span></div>
+        <div><b>100%</b><span>Mobile-first builds</span></div>
+        <div><b>&lt;1.5s</b><span>Avg. load time</span></div>
+      </div>
+    </div>
+
+    <!-- Signature element: live-coding editor mockup -->
+    <div class="editor glass">
+      <div class="editor-bar">
+        <div class="dots"><i></i><i></i><i></i></div>
+        <span class="filename">adda-cafe.html</span>
+      </div>
+      <div class="editor-body" id="editorBody" aria-hidden="true"></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================= ABOUT ============================= -->
+<section id="about">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">ABOUT</p>
+      <h2>The developer behind the code</h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-card glass reveal">
+        <p style="font-family:var(--font-mono); font-size:0.78rem; color:var(--text-faint); margin:0 0 6px;">const developer = {</p>
+        <p style="font-family:var(--font-mono); font-size:0.85rem; margin:2px 0 2px 14px;"><span class="tok-attr">name</span><span class="tok-punc">:</span> <span class="tok-str">"Dhiva"</span>,</p>
+        <p style="font-family:var(--font-mono); font-size:0.85rem; margin:2px 0 2px 14px;"><span class="tok-attr">role</span><span class="tok-punc">:</span> <span class="tok-str">"Frontend Developer"</span>,</p>
+        <p style="font-family:var(--font-mono); font-size:0.85rem; margin:2px 0 2px 14px;"><span class="tok-attr">base</span><span class="tok-punc">:</span> <span class="tok-str">"Tamil Nadu, IN"</span>,</p>
+        <p style="font-family:var(--font-mono); font-size:0.85rem; margin:2px 0 2px 14px;"><span class="tok-attr">focus</span><span class="tok-punc">:</span> <span class="tok-str">"landing pages"</span></p>
+        <p style="font-family:var(--font-mono); font-size:0.78rem; color:var(--text-faint); margin:6px 0 0;">}</p>
+        <div class="tag-row">
+          <span class="tag">Available for freelance</span>
+        </div>
+        <div class="location-chip">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          Tamil Nadu, India
+        </div>
+      </div>
+
+      <div class="about-copy reveal">
+        <p>I'm <strong>Dhiva</strong>, a frontend web developer who enjoys turning a business's story into a website that actually gets people to act — book a table, place an order, or send an enquiry.</p>
+        <p>My work centers on <strong>user experience, performance and modern design</strong>. Every page I build starts from the same three questions: who's landing here, what do they need to see first, and what's the one action that matters? Everything else — animation, color, layout — is built to support that.</p>
+        <p>I work mainly with startups, cafés, restaurants, clothing stores and small local businesses that need a website which loads fast, looks credible on a phone, and is easy to hand off — clean, well-commented code, no unnecessary dependencies.</p>
+        <p>When I'm not shipping landing pages, I'm refining my own toolkit: accessibility, micro-interactions, and squeezing out every unnecessary kilobyte.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= SKILLS ============================= -->
+<section id="skills">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">SKILLS</p>
+      <h2>The stack I build with</h2>
+      <p>A focused toolkit — chosen for speed, control and long-term maintainability.</p>
+    </div>
+
+    <div class="skills-grid reveal-stagger">
+      <!-- Skill cards populated below; each has a data-pct for the animated bar -->
+      <div class="skill-card glass reveal" style="--i:0" data-pct="95">
+        <div class="skill-icon" style="color:#ff8fb4;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 3h16l-1.5 17L12 22l-6.5-2L4 3Z"/><path d="M7.5 7h9l-.35 4H8.2"/><path d="M8.1 14.5l.3 2.7 3.6 1 3.6-1 .4-4.2"/></svg></div>
+        <h3>HTML5</h3>
+        <p>Semantic, accessible markup built to scale.</p>
+        <div class="bar" style="--pct:95%"><i></i></div>
+      </div>
+
+      <div class="skill-card glass reveal" style="--i:1" data-pct="92">
+        <div class="skill-icon" style="color:#7ee1ff;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 3h16l-1.5 17L12 22l-6.5-2L4 3Z"/><path d="M8 7h8l-.5 9-3.5 1-3.5-1L8.2 12"/><path d="M8.3 12h7.2"/></svg></div>
+        <h3>CSS3</h3>
+        <p>Custom layouts, glassmorphism, motion &amp; theming.</p>
+        <div class="bar" style="--pct:92%"><i></i></div>
+      </div>
+
+      <div class="skill-card glass reveal" style="--i:2" data-pct="88">
+        <div class="skill-icon" style="color:#ffe38f;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 15c0 1.5 1 2 2 2s2-.7 2-2V9"/><path d="M14 13c0-1 1-1.6 2-1.6s2 .6 2 1.6c0 1-1 1.3-2 1.6-1 .3-2 .7-2 1.7s1 1.7 2 1.7 2-.5 2-1.7"/></svg></div>
+        <h3>JavaScript</h3>
+        <p>Interactive UI, DOM logic, and clean vanilla JS.</p>
+        <div class="bar" style="--pct:88%"><i></i></div>
+      </div>
+
+      <div class="skill-card glass reveal" style="--i:3" data-pct="94">
+        <div class="skill-icon" style="color:#a7f0ba;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="8" height="12" rx="2"/><rect x="14" y="4" width="8" height="8" rx="2"/><path d="M6 7V5a2 2 0 0 1 2-2h2"/></svg></div>
+        <h3>Responsive Design</h3>
+        <p>Mobile-first layouts that hold up on any screen.</p>
+        <div class="bar" style="--pct:94%"><i></i></div>
+      </div>
+
+      <div class="skill-card glass reveal" style="--i:4" data-pct="85">
+        <div class="skill-icon" style="color:#c9a2ff;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="6" cy="6" r="2.5"/><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="12" r="2.5"/><path d="M6 8.5V15.5M8 6.8l8 3.6M8 17.2l8-3.6"/></svg></div>
+        <h3>Git &amp; GitHub</h3>
+        <p>Version control, branching, and clean commit history.</p>
+        <div class="bar" style="--pct:85%"><i></i></div>
+      </div>
+
+      <div class="skill-card glass reveal" style="--i:5" data-pct="90">
+        <div class="skill-icon" style="color:#8fd0ff;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3a4 4 0 0 1 0 8H9a4 4 0 0 0 0 8h6"/><circle cx="7" cy="7" r="1.4" fill="currentColor" stroke="none"/><circle cx="17" cy="17" r="1.4" fill="currentColor" stroke="none"/></svg></div>
+        <h3>UI/UX Design</h3>
+        <p>Wireframes to polish — designed to convert.</p>
+        <div class="bar" style="--pct:90%"><i></i></div>
+      </div>
+
+      <div class="skill-card glass reveal" style="--i:6" data-pct="97">
+        <div class="skill-icon" style="color:#ff9f7e;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M7 9l3 2-3 2"/></svg></div>
+        <h3>Landing Page Dev</h3>
+        <p>High-converting single pages, built for speed.</p>
+        <div class="bar" style="--pct:97%"><i></i></div>
+      </div>
+
+      <div class="skill-card glass reveal" style="--i:7" data-pct="89">
+        <div class="skill-icon" style="color:#8fffcf;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2 3 14h7l-1 8 11-14h-7l1-6Z"/></svg></div>
+        <h3>Performance</h3>
+        <p>Optimized assets, fast paint, lean bundles.</p>
+        <div class="bar" style="--pct:89%"><i></i></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= SERVICES ============================= -->
+<section id="services">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">SERVICES</p>
+      <h2>What I can build for you</h2>
+      <p>From a single high-converting page to a full small-business website.</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card glass reveal">
+        <div class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 4v5"/></svg></div>
+        <div class="num">01</div>
+        <h3>Landing Page Development</h3>
+        <p>Single-page sites built to convert visitors into enquiries, bookings or sales.</p>
+      </div>
+      <div class="service-card glass reveal">
+        <div class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4.5 5-6 8-6s6.5 1.5 8 6"/></svg></div>
+        <div class="num">02</div>
+        <h3>Portfolio Websites</h3>
+        <p>Personal or creative portfolios that present your work with clarity and taste.</p>
+      </div>
+      <div class="service-card glass reveal">
+        <div class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2 3 14h7l-1 8 11-14h-7l1-6Z"/></svg></div>
+        <div class="num">03</div>
+        <h3>Startup Websites</h3>
+        <p>Clean, credible sites that help early-stage startups launch and pitch with confidence.</p>
+      </div>
+      <div class="service-card glass reveal">
+        <div class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3v4M10 3v4M14 3v4M18 3v4"/><path d="M4 7h16l-1 4a7 7 0 0 1-14 0L4 7Z"/><path d="M9 15v3a3 3 0 0 0 6 0v-3"/></svg></div>
+        <div class="num">04</div>
+        <h3>Café &amp; Restaurant Websites</h3>
+        <p>Menu-forward, appetite-friendly pages with location, hours and easy reservations.</p>
+      </div>
+      <div class="service-card glass reveal">
+        <div class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21V9l9-6 9 6v12"/><path d="M9 21v-6h6v6"/></svg></div>
+        <div class="num">05</div>
+        <h3>Business Websites</h3>
+        <p>Multi-section sites for local businesses that need to explain, list and convert.</p>
+      </div>
+      <div class="service-card glass reveal">
+        <div class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></svg></div>
+        <div class="num">06</div>
+        <h3>Website Optimization</h3>
+        <p>Speed, SEO and mobile fixes for existing sites that are losing visitors.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= PROJECTS ============================= -->
+<section id="projects">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">PROJECTS</p>
+      <h2>Selected work</h2>
+      <p>A few of the landing pages and websites I've designed and built.</p>
+    </div>
+
+    <div class="projects-grid">
+
+      <div class="project-card glass reveal">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#3a2a1a,#5a3a20);">
+          <span class="tag-pill">Café</span>
+          <svg viewBox="0 0 200 120"><defs><linearGradient id="c1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f2b96b"/><stop offset="1" stop-color="#c97b3f"/></linearGradient></defs><rect width="200" height="120" fill="#241a12"/><circle cx="100" cy="55" r="26" fill="none" stroke="url(#c1)" stroke-width="3"/><path d="M74 55a26 26 0 0 0 52 0" stroke="url(#c1)" stroke-width="3" fill="none"/><path d="M126 46h8a10 10 0 0 1 0 20h-6" stroke="url(#c1)" stroke-width="3" fill="none"/><line x1="70" y1="90" x2="130" y2="90" stroke="#c97b3f" stroke-width="2"/></svg>
+        </div>
+        <div class="project-info">
+          <h3>Adda — Café Landing Page</h3>
+          <p>A warm, appetite-driven single page for a neighbourhood café — menu highlights, hours and a location map.</p>
+          <div class="project-links">
+            <a href="#" class="btn btn-ghost btn-sm">Live Demo</a>
+            <a href="#" class="btn btn-ghost btn-sm">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card glass reveal">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#1a2a24,#204a3a);">
+          <span class="tag-pill">Restaurant</span>
+          <svg viewBox="0 0 200 120"><defs><linearGradient id="c2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7ee1ff"/><stop offset="1" stop-color="#4f8cff"/></linearGradient></defs><rect width="200" height="120" fill="#0f2420"/><path d="M70 30v34a14 14 0 0 0 28 0V30M84 30v24" stroke="url(#c2)" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M124 30v60M124 30c-10 0-16 8-16 18s6 12 16 12" stroke="url(#c2)" stroke-width="3" fill="none" stroke-linecap="round"/></svg>
+        </div>
+        <div class="project-info">
+          <h3>Fork &amp; Flame — Restaurant Website</h3>
+          <p>Full-width imagery, digital menu and reservation call-to-action for a fine-dining restaurant.</p>
+          <div class="project-links">
+            <a href="#" class="btn btn-ghost btn-sm">Live Demo</a>
+            <a href="#" class="btn btn-ghost btn-sm">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card glass reveal">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#1a1f2e,#25254a);">
+          <span class="tag-pill">Startup</span>
+          <svg viewBox="0 0 200 120"><defs><linearGradient id="c3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#4f8cff"/></linearGradient></defs><rect width="200" height="120" fill="#141327"/><path d="M100 24 68 96h20l-6 20 44-52H106l10-20Z" fill="none" stroke="url(#c3)" stroke-width="3" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="project-info">
+          <h3>Launchpad — Startup Landing Page</h3>
+          <p>Conversion-focused hero, feature grid and pricing table for an early-stage SaaS launch.</p>
+          <div class="project-links">
+            <a href="#" class="btn btn-ghost btn-sm">Live Demo</a>
+            <a href="#" class="btn btn-ghost btn-sm">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card glass reveal">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#2a1a24,#4a2038);">
+          <span class="tag-pill">Fashion</span>
+          <svg viewBox="0 0 200 120"><defs><linearGradient id="c4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff8fb4"/><stop offset="1" stop-color="#c9a2ff"/></linearGradient></defs><rect width="200" height="120" fill="#210f1c"/><path d="M85 28h30l14 18-14 8v46H85V54l-14-8Z" fill="none" stroke="url(#c4)" stroke-width="3" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="project-info">
+          <h3>Threadline — Clothing Brand Website</h3>
+          <p>Editorial-style product showcase and lookbook for an independent clothing label.</p>
+          <div class="project-links">
+            <a href="#" class="btn btn-ghost btn-sm">Live Demo</a>
+            <a href="#" class="btn btn-ghost btn-sm">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card glass reveal">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#12202e,#1a3448);">
+          <span class="tag-pill">Portfolio</span>
+          <svg viewBox="0 0 200 120"><defs><linearGradient id="c5" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#4f8cff"/></linearGradient></defs><rect width="200" height="120" fill="#0d1e2b"/><rect x="60" y="34" width="80" height="52" rx="6" fill="none" stroke="url(#c5)" stroke-width="3"/><path d="M70 74l14-16 12 10 14-18 20 24" stroke="url(#c5)" stroke-width="3" fill="none" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="project-info">
+          <h3>Personal Portfolio Website</h3>
+          <p>This very site — a dark, glassmorphic portfolio built to present frontend work clearly.</p>
+          <div class="project-links">
+            <a href="#" class="btn btn-ghost btn-sm">Live Demo</a>
+            <a href="#" class="btn btn-ghost btn-sm">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card glass reveal">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#1c1c1c,#2e2e2e);">
+          <span class="tag-pill">More soon</span>
+          <svg viewBox="0 0 200 120"><rect width="200" height="120" fill="#161616"/><circle cx="80" cy="60" r="5" fill="#4f8cff"/><circle cx="100" cy="60" r="5" fill="#8b5cf6"/><circle cx="120" cy="60" r="5" fill="#22d3ee"/></svg>
+        </div>
+        <div class="project-info">
+          <h3>Your Business — Next Project?</h3>
+          <p>A landing page built around your brand, your customers, and your one key action.</p>
+          <div class="project-links">
+            <a href="#contact" class="btn btn-primary btn-sm">Start a Project</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================= WHY CHOOSE ME ============================= -->
+<section id="why">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">WHY CHOOSE ME</p>
+      <h2>Built right, the first time</h2>
+    </div>
+
+    <div class="why-grid">
+      <div class="why-card glass reveal">
+        <div class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg></div>
+        <div><h3>Responsive Design</h3><p>Looks and works right on phones, tablets and desktops.</p></div>
+      </div>
+      <div class="why-card glass reveal">
+        <div class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2 3 14h7l-1 8 11-14h-7l1-6Z"/></svg></div>
+        <div><h3>Fast Performance</h3><p>Optimized images and lean code for near-instant loads.</p></div>
+      </div>
+      <div class="why-card glass reveal">
+        <div class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v3M12 18v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M3 12h3M18 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/><circle cx="12" cy="12" r="4"/></svg></div>
+        <div><h3>Modern UI</h3><p>Current design language — no dated templates or clip art.</p></div>
+      </div>
+      <div class="why-card glass reveal">
+        <div class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/></svg></div>
+        <div><h3>SEO Friendly</h3><p>Semantic structure and metadata so your page can be found.</p></div>
+      </div>
+      <div class="why-card glass reveal">
+        <div class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+        <div><h3>Clean Code</h3><p>Readable, well-commented HTML/CSS/JS — easy to hand off or extend.</p></div>
+      </div>
+      <div class="why-card glass reveal">
+        <div class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></div>
+        <div><h3>Cross-browser Compatible</h3><p>Tested to behave consistently across major browsers.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= CONTACT ============================= -->
+<section id="contact">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">CONTACT</p>
+      <h2>Let's build your landing page</h2>
+      <p>Tell me about your business — I'll reply with next steps within a day.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info glass reveal">
+        <h3>Get in touch</h3>
+        <p>Available for freelance landing page and website projects.</p>
+
+        <div class="contact-row">
+          <div class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></div>
+          <div><div class="label">EMAIL</div><a class="value" href="mailto:hello@dhiva.dev">hello@dhiva.dev</a></div>
+        </div>
+        <div class="contact-row">
+          <div class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.6 2.8 5.5 3.1 5.5 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4.1 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></div>
+          <div><div class="label">GITHUB</div><a class="value" href="https://github.com/dhiva-dev" target="_blank" rel="noopener">github.com/dhiva-dev</a></div>
+        </div>
+        <div class="contact-row">
+          <div class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6Z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></div>
+          <div><div class="label">LINKEDIN</div><a class="value" href="https://linkedin.com/in/dhiva-dev" target="_blank" rel="noopener">linkedin.com/in/dhiva-dev</a></div>
+        </div>
+        <div class="contact-row">
+          <div class="icon-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div><div class="label">LOCATION</div><span class="value">Tamil Nadu, India</span></div>
+        </div>
+      </div>
+
+      <form class="contact-form glass reveal" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="business">Business type</label>
+          <input type="text" id="business" name="business" placeholder="e.g. Café, Startup, Clothing store">
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell me a bit about your project..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+        <p class="form-note">This form is front-end only — connect it to Formspree, EmailJS or a serverless function to receive submissions.</p>
+        <div class="form-success" id="formSuccess">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg>
+          Thanks! Your message has been noted — I'll get back to you soon.
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= FOOTER ============================= -->
+<footer>
+  <div class="container footer-inner">
+    <p>Designed &amp; Developed by <b>Dhiva</b> © 2026</p>
+    <div class="footer-socials">
+      <a href="mailto:hello@dhiva.dev" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+      <a href="https://github.com/dhiva-dev" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.6 2.8 5.5 3.1 5.5 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4.1 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></a>
+      <a href="https://linkedin.com/in/dhiva-dev" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6Z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+<button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 15l-6-6-6 6"/></svg>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
